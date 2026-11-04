@@ -1,0 +1,1886 @@
+{
+  "$schema": "https://schemas.kicad.org/drc.v1.json",
+  "coordinate_units": "mm",
+  "date": "2026-11-04T23:35:33",
+  "ignored_checks": [
+    {
+      "description": "Board edge clearance violation",
+      "key": "copper_edge_clearance"
+    },
+    {
+      "description": "Footprint has no courtyard defined",
+      "key": "missing_courtyard"
+    },
+    {
+      "description": "Board has malformed outline",
+      "key": "invalid_outline"
+    },
+    {
+      "description": "Solder mask aperture bridges items with different nets",
+      "key": "solder_mask_bridge"
+    },
+    {
+      "description": "Track endpoint not centered on via",
+      "key": "track_not_centered_on_via"
+    },
+    {
+      "description": "Tuning profile track geometries",
+      "key": "tuning_profile_track_geometries"
+    },
+    {
+      "description": "Footprint doesn't match symbol's footprint filters",
+      "key": "footprint_filters_mismatch"
+    },
+    {
+      "description": "Pad net doesn't match schematic",
+      "key": "net_conflict"
+    },
+    {
+      "description": "Silkscreen clipped by board edge",
+      "key": "silk_edge_clearance"
+    },
+    {
+      "description": "PTH inside courtyard",
+      "key": "pth_inside_courtyard"
+    },
+    {
+      "description": "NPTH inside courtyard",
+      "key": "npth_inside_courtyard"
+    },
+    {
+      "description": "Footprint component type doesn't match footprint pads",
+      "key": "footprint_type_mismatch"
+    },
+    {
+      "description": "Footprint doesn't match copy in library",
+      "key": "lib_footprint_mismatch"
+    }
+  ],
+  "included_severities": [
+    "error",
+    "warning"
+  ],
+  "kicad_version": "10.0.7",
+  "schematic_parity": [],
+  "source": "mikecinq.kicad_pcb",
+  "unconnected_items": [
+    {
+      "description": "Missing connection between items",
+      "items": [
+        {
+          "description": "填充区[Chassis GND]在 F.Cu 和 B.Cu 上, 优先级 1",
+          "pos": {
+            "x": 16.28769,
+            "y": 12.926022
+          },
+          "uuid": "fef1aa85-3655-4168-b97a-5c81bb5ab0a6"
+        },
+        {
+          "description": "F.Cu 上 S15 的焊盘 3 [Chassis GND]",
+          "pos": {
+            "x": 125.734907,
+            "y": 50.643199
+          },
+          "uuid": "cf287b4a-c320-430e-9f86-dea08ecf2d5e"
+        }
+      ],
+      "severity": "error",
+      "type": "unconnected_items"
+    },
+    {
+      "description": "Missing connection between items",
+      "items": [
+        {
+          "description": "填充区[Chassis GND]在 F.Cu 和 B.Cu 上, 优先级 1",
+          "pos": {
+            "x": 16.28769,
+            "y": 12.926022
+          },
+          "uuid": "fef1aa85-3655-4168-b97a-5c81bb5ab0a6"
+        },
+        {
+          "description": "F.Cu 上 S19 的焊盘 3 [Chassis GND]",
+          "pos": {
+            "x": 152.361813,
+            "y": 50.643202
+          },
+          "uuid": "e754a369-2a8c-496f-bf4d-68d26ea28e80"
+        }
+      ],
+      "severity": "error",
+      "type": "unconnected_items"
+    }
+  ],
+  "violations": [
+    {
+      "description": "Isolated copper fill",
+      "items": [
+        {
+          "description": "填充区[Chassis GND]在 F.Cu 和 B.Cu 上, 优先级 0",
+          "pos": {
+            "x": 29.251852,
+            "y": 22.942104
+          },
+          "uuid": "d94c2f5a-b67d-478a-883d-63979bca478f"
+        }
+      ],
+      "severity": "warning",
+      "type": "isolated_copper"
+    },
+    {
+      "description": "Isolated copper fill",
+      "items": [
+        {
+          "description": "填充区[Chassis GND]在 F.Cu 和 B.Cu 上, 优先级 0",
+          "pos": {
+            "x": 29.251852,
+            "y": 22.942104
+          },
+          "uuid": "d94c2f5a-b67d-478a-883d-63979bca478f"
+        }
+      ],
+      "severity": "warning",
+      "type": "isolated_copper"
+    },
+    {
+      "description": "Isolated copper fill",
+      "items": [
+        {
+          "description": "填充区[Chassis GND]在 F.Cu 和 B.Cu 上, 优先级 0",
+          "pos": {
+            "x": 29.251852,
+            "y": 22.942104
+          },
+          "uuid": "d94c2f5a-b67d-478a-883d-63979bca478f"
+        }
+      ],
+      "severity": "warning",
+      "type": "isolated_copper"
+    },
+    {
+      "description": "Isolated copper fill",
+      "items": [
+        {
+          "description": "填充区[Chassis GND]在 F.Cu 和 B.Cu 上, 优先级 0",
+          "pos": {
+            "x": 29.251852,
+            "y": 22.942104
+          },
+          "uuid": "d94c2f5a-b67d-478a-883d-63979bca478f"
+        }
+      ],
+      "severity": "warning",
+      "type": "isolated_copper"
+    },
+    {
+      "description": "Isolated copper fill",
+      "items": [
+        {
+          "description": "填充区[Chassis GND]在 F.Cu 和 B.Cu 上, 优先级 0",
+          "pos": {
+            "x": 29.251852,
+            "y": 22.942104
+          },
+          "uuid": "d94c2f5a-b67d-478a-883d-63979bca478f"
+        }
+      ],
+      "severity": "warning",
+      "type": "isolated_copper"
+    },
+    {
+      "description": "Isolated copper fill",
+      "items": [
+        {
+          "description": "填充区[Chassis GND]在 F.Cu 和 B.Cu 上, 优先级 0",
+          "pos": {
+            "x": 29.251852,
+            "y": 22.942104
+          },
+          "uuid": "d94c2f5a-b67d-478a-883d-63979bca478f"
+        }
+      ],
+      "severity": "warning",
+      "type": "isolated_copper"
+    },
+    {
+      "description": "Isolated copper fill",
+      "items": [
+        {
+          "description": "填充区[Chassis GND]在 F.Cu 和 B.Cu 上, 优先级 0",
+          "pos": {
+            "x": 29.251852,
+            "y": 22.942104
+          },
+          "uuid": "d94c2f5a-b67d-478a-883d-63979bca478f"
+        }
+      ],
+      "severity": "warning",
+      "type": "isolated_copper"
+    },
+    {
+      "description": "Isolated copper fill",
+      "items": [
+        {
+          "description": "填充区[Chassis GND]在 F.Cu 和 B.Cu 上, 优先级 0",
+          "pos": {
+            "x": 29.251852,
+            "y": 22.942104
+          },
+          "uuid": "d94c2f5a-b67d-478a-883d-63979bca478f"
+        }
+      ],
+      "severity": "warning",
+      "type": "isolated_copper"
+    },
+    {
+      "description": "Isolated copper fill",
+      "items": [
+        {
+          "description": "填充区[Chassis GND]在 F.Cu 和 B.Cu 上, 优先级 0",
+          "pos": {
+            "x": 29.251852,
+            "y": 22.942104
+          },
+          "uuid": "d94c2f5a-b67d-478a-883d-63979bca478f"
+        }
+      ],
+      "severity": "warning",
+      "type": "isolated_copper"
+    },
+    {
+      "description": "Isolated copper fill",
+      "items": [
+        {
+          "description": "填充区[Chassis GND]在 F.Cu 和 B.Cu 上, 优先级 0",
+          "pos": {
+            "x": 29.251852,
+            "y": 22.942104
+          },
+          "uuid": "d94c2f5a-b67d-478a-883d-63979bca478f"
+        }
+      ],
+      "severity": "warning",
+      "type": "isolated_copper"
+    },
+    {
+      "description": "Isolated copper fill",
+      "items": [
+        {
+          "description": "填充区[Chassis GND]在 F.Cu 和 B.Cu 上, 优先级 0",
+          "pos": {
+            "x": 29.251852,
+            "y": 22.942104
+          },
+          "uuid": "d94c2f5a-b67d-478a-883d-63979bca478f"
+        }
+      ],
+      "severity": "warning",
+      "type": "isolated_copper"
+    },
+    {
+      "description": "Isolated copper fill",
+      "items": [
+        {
+          "description": "填充区[Chassis GND]在 F.Cu 和 B.Cu 上, 优先级 0",
+          "pos": {
+            "x": 29.251852,
+            "y": 22.942104
+          },
+          "uuid": "d94c2f5a-b67d-478a-883d-63979bca478f"
+        }
+      ],
+      "severity": "warning",
+      "type": "isolated_copper"
+    },
+    {
+      "description": "Isolated copper fill",
+      "items": [
+        {
+          "description": "填充区[Chassis GND]在 F.Cu 和 B.Cu 上, 优先级 0",
+          "pos": {
+            "x": 29.251852,
+            "y": 22.942104
+          },
+          "uuid": "d94c2f5a-b67d-478a-883d-63979bca478f"
+        }
+      ],
+      "severity": "warning",
+      "type": "isolated_copper"
+    },
+    {
+      "description": "Isolated copper fill",
+      "items": [
+        {
+          "description": "填充区[Chassis GND]在 F.Cu 和 B.Cu 上, 优先级 0",
+          "pos": {
+            "x": 29.251852,
+            "y": 22.942104
+          },
+          "uuid": "d94c2f5a-b67d-478a-883d-63979bca478f"
+        }
+      ],
+      "severity": "warning",
+      "type": "isolated_copper"
+    },
+    {
+      "description": "Isolated copper fill",
+      "items": [
+        {
+          "description": "填充区[Chassis GND]在 F.Cu 和 B.Cu 上, 优先级 0",
+          "pos": {
+            "x": 29.251852,
+            "y": 22.942104
+          },
+          "uuid": "d94c2f5a-b67d-478a-883d-63979bca478f"
+        }
+      ],
+      "severity": "warning",
+      "type": "isolated_copper"
+    },
+    {
+      "description": "Isolated copper fill",
+      "items": [
+        {
+          "description": "填充区[Chassis GND]在 F.Cu 和 B.Cu 上, 优先级 0",
+          "pos": {
+            "x": 29.251852,
+            "y": 22.942104
+          },
+          "uuid": "d94c2f5a-b67d-478a-883d-63979bca478f"
+        }
+      ],
+      "severity": "warning",
+      "type": "isolated_copper"
+    },
+    {
+      "description": "Isolated copper fill",
+      "items": [
+        {
+          "description": "填充区[Chassis GND]在 F.Cu 和 B.Cu 上, 优先级 0",
+          "pos": {
+            "x": 29.251852,
+            "y": 22.942104
+          },
+          "uuid": "d94c2f5a-b67d-478a-883d-63979bca478f"
+        }
+      ],
+      "severity": "warning",
+      "type": "isolated_copper"
+    },
+    {
+      "description": "Isolated copper fill",
+      "items": [
+        {
+          "description": "填充区[Chassis GND]在 F.Cu 和 B.Cu 上, 优先级 0",
+          "pos": {
+            "x": 29.251852,
+            "y": 22.942104
+          },
+          "uuid": "d94c2f5a-b67d-478a-883d-63979bca478f"
+        }
+      ],
+      "severity": "warning",
+      "type": "isolated_copper"
+    },
+    {
+      "description": "Isolated copper fill",
+      "items": [
+        {
+          "description": "填充区[Chassis GND]在 F.Cu 和 B.Cu 上, 优先级 0",
+          "pos": {
+            "x": 29.251852,
+            "y": 22.942104
+          },
+          "uuid": "d94c2f5a-b67d-478a-883d-63979bca478f"
+        }
+      ],
+      "severity": "warning",
+      "type": "isolated_copper"
+    },
+    {
+      "description": "Isolated copper fill",
+      "items": [
+        {
+          "description": "填充区[Chassis GND]在 F.Cu 和 B.Cu 上, 优先级 0",
+          "pos": {
+            "x": 29.251852,
+            "y": 22.942104
+          },
+          "uuid": "d94c2f5a-b67d-478a-883d-63979bca478f"
+        }
+      ],
+      "severity": "warning",
+      "type": "isolated_copper"
+    },
+    {
+      "description": "Isolated copper fill",
+      "items": [
+        {
+          "description": "填充区[Chassis GND]在 F.Cu 和 B.Cu 上, 优先级 0",
+          "pos": {
+            "x": 29.251852,
+            "y": 22.942104
+          },
+          "uuid": "d94c2f5a-b67d-478a-883d-63979bca478f"
+        }
+      ],
+      "severity": "warning",
+      "type": "isolated_copper"
+    },
+    {
+      "description": "Isolated copper fill",
+      "items": [
+        {
+          "description": "填充区[Chassis GND]在 F.Cu 和 B.Cu 上, 优先级 0",
+          "pos": {
+            "x": 29.251852,
+            "y": 22.942104
+          },
+          "uuid": "d94c2f5a-b67d-478a-883d-63979bca478f"
+        }
+      ],
+      "severity": "warning",
+      "type": "isolated_copper"
+    },
+    {
+      "description": "Isolated copper fill",
+      "items": [
+        {
+          "description": "填充区[Chassis GND]在 F.Cu 和 B.Cu 上, 优先级 0",
+          "pos": {
+            "x": 29.251852,
+            "y": 22.942104
+          },
+          "uuid": "d94c2f5a-b67d-478a-883d-63979bca478f"
+        }
+      ],
+      "severity": "warning",
+      "type": "isolated_copper"
+    },
+    {
+      "description": "Isolated copper fill",
+      "items": [
+        {
+          "description": "填充区[Chassis GND]在 F.Cu 和 B.Cu 上, 优先级 0",
+          "pos": {
+            "x": 29.251852,
+            "y": 22.942104
+          },
+          "uuid": "d94c2f5a-b67d-478a-883d-63979bca478f"
+        }
+      ],
+      "severity": "warning",
+      "type": "isolated_copper"
+    },
+    {
+      "description": "Isolated copper fill",
+      "items": [
+        {
+          "description": "填充区[Chassis GND]在 F.Cu 和 B.Cu 上, 优先级 0",
+          "pos": {
+            "x": 29.251852,
+            "y": 22.942104
+          },
+          "uuid": "d94c2f5a-b67d-478a-883d-63979bca478f"
+        }
+      ],
+      "severity": "warning",
+      "type": "isolated_copper"
+    },
+    {
+      "description": "Isolated copper fill",
+      "items": [
+        {
+          "description": "填充区[Chassis GND]在 F.Cu 和 B.Cu 上, 优先级 0",
+          "pos": {
+            "x": 29.251852,
+            "y": 22.942104
+          },
+          "uuid": "d94c2f5a-b67d-478a-883d-63979bca478f"
+        }
+      ],
+      "severity": "warning",
+      "type": "isolated_copper"
+    },
+    {
+      "description": "Isolated copper fill",
+      "items": [
+        {
+          "description": "填充区[Chassis GND]在 F.Cu 和 B.Cu 上, 优先级 0",
+          "pos": {
+            "x": 29.251852,
+            "y": 22.942104
+          },
+          "uuid": "d94c2f5a-b67d-478a-883d-63979bca478f"
+        }
+      ],
+      "severity": "warning",
+      "type": "isolated_copper"
+    },
+    {
+      "description": "Isolated copper fill",
+      "items": [
+        {
+          "description": "填充区[Chassis GND]在 F.Cu 和 B.Cu 上, 优先级 0",
+          "pos": {
+            "x": 29.251852,
+            "y": 22.942104
+          },
+          "uuid": "d94c2f5a-b67d-478a-883d-63979bca478f"
+        }
+      ],
+      "severity": "warning",
+      "type": "isolated_copper"
+    },
+    {
+      "description": "Isolated copper fill",
+      "items": [
+        {
+          "description": "填充区[Chassis GND]在 F.Cu 和 B.Cu 上, 优先级 0",
+          "pos": {
+            "x": 29.251852,
+            "y": 22.942104
+          },
+          "uuid": "d94c2f5a-b67d-478a-883d-63979bca478f"
+        }
+      ],
+      "severity": "warning",
+      "type": "isolated_copper"
+    },
+    {
+      "description": "Isolated copper fill",
+      "items": [
+        {
+          "description": "填充区[Chassis GND]在 F.Cu 和 B.Cu 上, 优先级 0",
+          "pos": {
+            "x": 29.251852,
+            "y": 22.942104
+          },
+          "uuid": "d94c2f5a-b67d-478a-883d-63979bca478f"
+        }
+      ],
+      "severity": "warning",
+      "type": "isolated_copper"
+    },
+    {
+      "description": "Isolated copper fill",
+      "items": [
+        {
+          "description": "填充区[Chassis GND]在 F.Cu 和 B.Cu 上, 优先级 0",
+          "pos": {
+            "x": 29.251852,
+            "y": 22.942104
+          },
+          "uuid": "d94c2f5a-b67d-478a-883d-63979bca478f"
+        }
+      ],
+      "severity": "warning",
+      "type": "isolated_copper"
+    },
+    {
+      "description": "Isolated copper fill",
+      "items": [
+        {
+          "description": "填充区[Chassis GND]在 F.Cu 和 B.Cu 上, 优先级 0",
+          "pos": {
+            "x": 29.251852,
+            "y": 22.942104
+          },
+          "uuid": "d94c2f5a-b67d-478a-883d-63979bca478f"
+        }
+      ],
+      "severity": "warning",
+      "type": "isolated_copper"
+    },
+    {
+      "description": "Isolated copper fill",
+      "items": [
+        {
+          "description": "填充区[Chassis GND]在 F.Cu 和 B.Cu 上, 优先级 0",
+          "pos": {
+            "x": 29.251852,
+            "y": 22.942104
+          },
+          "uuid": "d94c2f5a-b67d-478a-883d-63979bca478f"
+        }
+      ],
+      "severity": "warning",
+      "type": "isolated_copper"
+    },
+    {
+      "description": "Isolated copper fill",
+      "items": [
+        {
+          "description": "填充区[Chassis GND]在 F.Cu 和 B.Cu 上, 优先级 0",
+          "pos": {
+            "x": 29.251852,
+            "y": 22.942104
+          },
+          "uuid": "d94c2f5a-b67d-478a-883d-63979bca478f"
+        }
+      ],
+      "severity": "warning",
+      "type": "isolated_copper"
+    },
+    {
+      "description": "Isolated copper fill",
+      "items": [
+        {
+          "description": "填充区[Chassis GND]在 F.Cu 和 B.Cu 上, 优先级 0",
+          "pos": {
+            "x": 29.251852,
+            "y": 22.942104
+          },
+          "uuid": "d94c2f5a-b67d-478a-883d-63979bca478f"
+        }
+      ],
+      "severity": "warning",
+      "type": "isolated_copper"
+    },
+    {
+      "description": "Isolated copper fill",
+      "items": [
+        {
+          "description": "填充区[Chassis GND]在 F.Cu 和 B.Cu 上, 优先级 0",
+          "pos": {
+            "x": 29.251852,
+            "y": 22.942104
+          },
+          "uuid": "d94c2f5a-b67d-478a-883d-63979bca478f"
+        }
+      ],
+      "severity": "warning",
+      "type": "isolated_copper"
+    },
+    {
+      "description": "Isolated copper fill",
+      "items": [
+        {
+          "description": "填充区[Chassis GND]在 F.Cu 和 B.Cu 上, 优先级 0",
+          "pos": {
+            "x": 29.251852,
+            "y": 22.942104
+          },
+          "uuid": "d94c2f5a-b67d-478a-883d-63979bca478f"
+        }
+      ],
+      "severity": "warning",
+      "type": "isolated_copper"
+    },
+    {
+      "description": "Isolated copper fill",
+      "items": [
+        {
+          "description": "填充区[Chassis GND]在 F.Cu 和 B.Cu 上, 优先级 0",
+          "pos": {
+            "x": 29.251852,
+            "y": 22.942104
+          },
+          "uuid": "d94c2f5a-b67d-478a-883d-63979bca478f"
+        }
+      ],
+      "severity": "warning",
+      "type": "isolated_copper"
+    },
+    {
+      "description": "Isolated copper fill",
+      "items": [
+        {
+          "description": "填充区[Chassis GND]在 F.Cu 和 B.Cu 上, 优先级 0",
+          "pos": {
+            "x": 29.251852,
+            "y": 22.942104
+          },
+          "uuid": "d94c2f5a-b67d-478a-883d-63979bca478f"
+        }
+      ],
+      "severity": "warning",
+      "type": "isolated_copper"
+    },
+    {
+      "description": "Isolated copper fill",
+      "items": [
+        {
+          "description": "填充区[Chassis GND]在 F.Cu 和 B.Cu 上, 优先级 0",
+          "pos": {
+            "x": 29.251852,
+            "y": 22.942104
+          },
+          "uuid": "d94c2f5a-b67d-478a-883d-63979bca478f"
+        }
+      ],
+      "severity": "warning",
+      "type": "isolated_copper"
+    },
+    {
+      "description": "Isolated copper fill",
+      "items": [
+        {
+          "description": "填充区[Chassis GND]在 F.Cu 和 B.Cu 上, 优先级 0",
+          "pos": {
+            "x": 29.251852,
+            "y": 22.942104
+          },
+          "uuid": "d94c2f5a-b67d-478a-883d-63979bca478f"
+        }
+      ],
+      "severity": "warning",
+      "type": "isolated_copper"
+    },
+    {
+      "description": "Isolated copper fill",
+      "items": [
+        {
+          "description": "填充区[Chassis GND]在 F.Cu 和 B.Cu 上, 优先级 0",
+          "pos": {
+            "x": 29.251852,
+            "y": 22.942104
+          },
+          "uuid": "d94c2f5a-b67d-478a-883d-63979bca478f"
+        }
+      ],
+      "severity": "warning",
+      "type": "isolated_copper"
+    },
+    {
+      "description": "当前配置中不包含封装库 'SCOTTOKEEBS Components'",
+      "items": [
+        {
+          "description": "封装 D13",
+          "pos": {
+            "x": 94.121857,
+            "y": 78.407181
+          },
+          "uuid": "0723dccb-e686-4aba-a0f5-badc1e080190"
+        }
+      ],
+      "severity": "warning",
+      "type": "lib_footprint_issues"
+    },
+    {
+      "description": "当前配置中不包含封装库 'Custom'",
+      "items": [
+        {
+          "description": "封装 S26",
+          "pos": {
+            "x": 173.248123,
+            "y": 104.057472
+          },
+          "uuid": "0730907c-83b7-4edb-b3fc-7592e249d104"
+        }
+      ],
+      "severity": "warning",
+      "type": "lib_footprint_issues"
+    },
+    {
+      "description": "当前配置中不包含封装库 'Custom'",
+      "items": [
+        {
+          "description": "封装 S4",
+          "pos": {
+            "x": 69.433177,
+            "y": 39.180668
+          },
+          "uuid": "084edb2a-e422-422c-8d2c-278676737755"
+        }
+      ],
+      "severity": "warning",
+      "type": "lib_footprint_issues"
+    },
+    {
+      "description": "当前配置中不包含封装库 'SCOTTOKEEBS Components'",
+      "items": [
+        {
+          "description": "封装 D10",
+          "pos": {
+            "x": 89.721948,
+            "y": 94.827912
+          },
+          "uuid": "0c032940-b27c-4bf6-b944-ba5ec7de3592"
+        }
+      ],
+      "severity": "warning",
+      "type": "lib_footprint_issues"
+    },
+    {
+      "description": "当前配置中不包含封装库 'SCOTTOKEEBS Components'",
+      "items": [
+        {
+          "description": "封装 D33",
+          "pos": {
+            "x": 216.816322,
+            "y": 69.607332
+          },
+          "uuid": "144380c5-691d-45b6-baea-78adb87033ae"
+        }
+      ],
+      "severity": "warning",
+      "type": "lib_footprint_issues"
+    },
+    {
+      "description": "当前配置中不包含封装库 'SCOTTOKEEBS Components'",
+      "items": [
+        {
+          "description": "封装 D30",
+          "pos": {
+            "x": 188.37477,
+            "y": 94.827916
+          },
+          "uuid": "146af553-96bb-447c-87ed-a1d115560603"
+        }
+      ],
+      "severity": "warning",
+      "type": "lib_footprint_issues"
+    },
+    {
+      "description": "当前配置中不包含封装库 'Custom'",
+      "items": [
+        {
+          "description": "封装 S7",
+          "pos": {
+            "x": 86.449203,
+            "y": 41.358955
+          },
+          "uuid": "1508e634-49aa-4ae1-9a3d-57355c5edff8"
+        }
+      ],
+      "severity": "warning",
+      "type": "lib_footprint_issues"
+    },
+    {
+      "description": "当前配置中不包含封装库 'Custom'",
+      "items": [
+        {
+          "description": "封装 CH1",
+          "pos": {
+            "x": 139.048727,
+            "y": 118.282541
+          },
+          "uuid": "1bab32fa-e658-4ec2-ba80-526a5d12f5d3"
+        }
+      ],
+      "severity": "warning",
+      "type": "lib_footprint_issues"
+    },
+    {
+      "description": "当前配置中不包含封装库 'Custom'",
+      "items": [
+        {
+          "description": "封装 S22",
+          "pos": {
+            "x": 157.474435,
+            "y": 110.87221
+          },
+          "uuid": "1ca7f599-7278-4615-a312-5d9eabd519a7"
+        }
+      ],
+      "severity": "warning",
+      "type": "lib_footprint_issues"
+    },
+    {
+      "description": "当前配置中不包含封装库 'Custom'",
+      "items": [
+        {
+          "description": "封装 S36",
+          "pos": {
+            "x": 235.100564,
+            "y": 72.162073
+          },
+          "uuid": "20d5c45a-ba6c-4bab-b09c-8bc9eba6ef89"
+        }
+      ],
+      "severity": "warning",
+      "type": "lib_footprint_issues"
+    },
+    {
+      "description": "当前配置中不包含封装库 'SCOTTOKEEBS Components'",
+      "items": [
+        {
+          "description": "封装 D15",
+          "pos": {
+            "x": 118.695393,
+            "y": 52.380438
+          },
+          "uuid": "220ca584-a912-48f3-91d1-0749efebf951"
+        }
+      ],
+      "severity": "warning",
+      "type": "lib_footprint_issues"
+    },
+    {
+      "description": "当前配置中不包含封装库 'Custom'",
+      "items": [
+        {
+          "description": "封装 S15",
+          "pos": {
+            "x": 118.048364,
+            "y": 54.795253
+          },
+          "uuid": "22567cee-62e2-4fba-831a-671878f31764"
+        }
+      ],
+      "severity": "warning",
+      "type": "lib_footprint_issues"
+    },
+    {
+      "description": "当前配置中不包含封装库 'SCOTTOKEEBS Components'",
+      "items": [
+        {
+          "description": "封装 D29",
+          "pos": {
+            "x": 199.8003,
+            "y": 71.785629
+          },
+          "uuid": "2ad0f71b-f164-4c84-bd96-237cc9d2e852"
+        }
+      ],
+      "severity": "warning",
+      "type": "lib_footprint_issues"
+    },
+    {
+      "description": "当前配置中不包含封装库 'Custom'",
+      "items": [
+        {
+          "description": "封装 S24",
+          "pos": {
+            "x": 180.221969,
+            "y": 64.40126
+          },
+          "uuid": "2db9a7f0-02ba-43b9-9a53-9ee5963ea0ae"
+        }
+      ],
+      "severity": "warning",
+      "type": "lib_footprint_issues"
+    },
+    {
+      "description": "当前配置中不包含封装库 'Custom'",
+      "items": [
+        {
+          "description": "封装 S11",
+          "pos": {
+            "x": 102.274662,
+            "y": 47.980522
+          },
+          "uuid": "2fde0680-d8c3-4d19-aca6-c5a3d1a0636b"
+        }
+      ],
+      "severity": "warning",
+      "type": "lib_footprint_issues"
+    },
+    {
+      "description": "当前配置中不包含封装库 'Custom'",
+      "items": [
+        {
+          "description": "封装 S6",
+          "pos": {
+            "x": 60.633341,
+            "y": 72.022151
+          },
+          "uuid": "31d9ce07-689f-4f9b-b954-084d4e3dad40"
+        }
+      ],
+      "severity": "warning",
+      "type": "lib_footprint_issues"
+    },
+    {
+      "description": "当前配置中不包含封装库 'Custom'",
+      "items": [
+        {
+          "description": "封装 S8",
+          "pos": {
+            "x": 82.049282,
+            "y": 57.7797
+          },
+          "uuid": "37cef6c4-d969-4dbb-9379-7c22dbbf482a"
+        }
+      ],
+      "severity": "warning",
+      "type": "lib_footprint_issues"
+    },
+    {
+      "description": "当前配置中不包含封装库 'SCOTTOKEEBS Components'",
+      "items": [
+        {
+          "description": "封装 D16",
+          "pos": {
+            "x": 114.295479,
+            "y": 68.801172
+          },
+          "uuid": "37ea406c-c04d-47ee-b50d-20dc4b4d81cd"
+        }
+      ],
+      "severity": "warning",
+      "type": "lib_footprint_issues"
+    },
+    {
+      "description": "当前配置中不包含封装库 'Custom'",
+      "items": [
+        {
+          "description": "封装 S18",
+          "pos": {
+            "x": 120.62228,
+            "y": 110.872214
+          },
+          "uuid": "3b1adc48-d3bb-4800-b368-834c67dbd5b8"
+        }
+      ],
+      "severity": "warning",
+      "type": "lib_footprint_issues"
+    },
+    {
+      "description": "当前配置中不包含封装库 'Custom'",
+      "items": [
+        {
+          "description": "封装 S19",
+          "pos": {
+            "x": 160.048356,
+            "y": 54.795256
+          },
+          "uuid": "3c82333a-436b-4aaf-9c1c-729fef3dbcea"
+        }
+      ],
+      "severity": "warning",
+      "type": "lib_footprint_issues"
+    },
+    {
+      "description": "当前配置中不包含封装库 'Custom'",
+      "items": [
+        {
+          "description": "封装 S13",
+          "pos": {
+            "x": 93.474816,
+            "y": 80.821994
+          },
+          "uuid": "3c95b684-cf34-4c25-9428-14cc0dd25381"
+        }
+      ],
+      "severity": "warning",
+      "type": "lib_footprint_issues"
+    },
+    {
+      "description": "当前配置中不包含封装库 'Custom'",
+      "items": [
+        {
+          "description": "封装 S10",
+          "pos": {
+            "x": 89.07489,
+            "y": 97.242729
+          },
+          "uuid": "4680fd97-6e2b-4ddc-ad50-b6b677ceca99"
+        }
+      ],
+      "severity": "warning",
+      "type": "lib_footprint_issues"
+    },
+    {
+      "description": "当前配置中不包含封装库 'Custom'",
+      "items": [
+        {
+          "description": "封装 S2",
+          "pos": {
+            "x": 47.396071,
+            "y": 55.741339
+          },
+          "uuid": "4c91de12-9c6c-4d94-815e-cdeee4331f83"
+        }
+      ],
+      "severity": "warning",
+      "type": "lib_footprint_issues"
+    },
+    {
+      "description": "当前配置中不包含封装库 'SCOTTOKEEBS Components'",
+      "items": [
+        {
+          "description": "封装 D12",
+          "pos": {
+            "x": 98.521786,
+            "y": 61.986439
+          },
+          "uuid": "510d9207-c012-4fde-86e8-71c22195cffb"
+        }
+      ],
+      "severity": "warning",
+      "type": "lib_footprint_issues"
+    },
+    {
+      "description": "当前配置中不包含封装库 'SCOTTOKEEBS Components'",
+      "items": [
+        {
+          "description": "封装 D28",
+          "pos": {
+            "x": 195.400375,
+            "y": 55.364886
+          },
+          "uuid": "55d8ba70-abd0-4832-8ac3-01734c29f437"
+        }
+      ],
+      "severity": "warning",
+      "type": "lib_footprint_issues"
+    },
+    {
+      "description": "当前配置中不包含封装库 'Custom'",
+      "items": [
+        {
+          "description": "封装 S31",
+          "pos": {
+            "x": 208.663524,
+            "y": 39.180667
+          },
+          "uuid": "586ee13a-1351-45b6-9b38-e10a7d836cd6"
+        }
+      ],
+      "severity": "warning",
+      "type": "lib_footprint_issues"
+    },
+    {
+      "description": "当前配置中不包含封装库 'SCOTTOKEEBS Components'",
+      "items": [
+        {
+          "description": "封装 D17",
+          "pos": {
+            "x": 109.895549,
+            "y": 85.221916
+          },
+          "uuid": "607a67ba-d4a2-4cc0-b662-e6b5f6433846"
+        }
+      ],
+      "severity": "warning",
+      "type": "lib_footprint_issues"
+    },
+    {
+      "description": "当前配置中不包含封装库 'Custom'",
+      "items": [
+        {
+          "description": "封装 S9",
+          "pos": {
+            "x": 77.64936,
+            "y": 74.200449
+          },
+          "uuid": "6167f66e-c8fa-4e2c-9387-8ec87dabc4ae"
+        }
+      ],
+      "severity": "warning",
+      "type": "lib_footprint_issues"
+    },
+    {
+      "description": "当前配置中不包含封装库 'Custom'",
+      "items": [
+        {
+          "description": "封装 S5",
+          "pos": {
+            "x": 65.033263,
+            "y": 55.601404
+          },
+          "uuid": "66d43b11-f1b6-4c67-9407-176e0ce9eec4"
+        }
+      ],
+      "severity": "warning",
+      "type": "lib_footprint_issues"
+    },
+    {
+      "description": "当前配置中不包含封装库 'SCOTTOKEEBS Components'",
+      "items": [
+        {
+          "description": "封装 D6",
+          "pos": {
+            "x": 61.280385,
+            "y": 69.607336
+          },
+          "uuid": "69d540ff-ebe0-4813-b1b2-06c0151dd3fe"
+        }
+      ],
+      "severity": "warning",
+      "type": "lib_footprint_issues"
+    },
+    {
+      "description": "当前配置中不包含封装库 'SCOTTOKEEBS Components'",
+      "items": [
+        {
+          "description": "封装 D24",
+          "pos": {
+            "x": 179.574923,
+            "y": 61.986441
+          },
+          "uuid": "6dbfcd4d-97e6-4d85-9d7d-6abc0c20c92a"
+        }
+      ],
+      "severity": "warning",
+      "type": "lib_footprint_issues"
+    },
+    {
+      "description": "当前配置中不包含封装库 'SCOTTOKEEBS Components'",
+      "items": [
+        {
+          "description": "封装 D32",
+          "pos": {
+            "x": 212.416396,
+            "y": 53.186587
+          },
+          "uuid": "724c007e-6772-4a5b-9330-0041f90d1754"
+        }
+      ],
+      "severity": "warning",
+      "type": "lib_footprint_issues"
+    },
+    {
+      "description": "当前配置中不包含封装库 'Custom'",
+      "items": [
+        {
+          "description": "封装 S14",
+          "pos": {
+            "x": 104.848575,
+            "y": 104.057472
+          },
+          "uuid": "75001467-a82f-47ee-80a5-84ef7d962666"
+        }
+      ],
+      "severity": "warning",
+      "type": "lib_footprint_issues"
+    },
+    {
+      "description": "当前配置中不包含封装库 'SCOTTOKEEBS Components'",
+      "items": [
+        {
+          "description": "封装 D23",
+          "pos": {
+            "x": 175.174996,
+            "y": 45.565699
+          },
+          "uuid": "76bb7202-a9f6-4f7d-bb59-3724f8b55928"
+        }
+      ],
+      "severity": "warning",
+      "type": "lib_footprint_issues"
+    },
+    {
+      "description": "当前配置中不包含封装库 'SCOTTOKEEBS Components'",
+      "items": [
+        {
+          "description": "封装 D22",
+          "pos": {
+            "x": 156.827386,
+            "y": 108.457399
+          },
+          "uuid": "7b427ea2-4e46-40d4-b3e4-e4b7726ba908"
+        }
+      ],
+      "severity": "warning",
+      "type": "lib_footprint_issues"
+    },
+    {
+      "description": "当前配置中不包含封装库 'Custom'",
+      "items": [
+        {
+          "description": "封装 S27",
+          "pos": {
+            "x": 191.647497,
+            "y": 41.358961
+          },
+          "uuid": "7d190ad9-a808-4090-9433-2ee5e3d94779"
+        }
+      ],
+      "severity": "warning",
+      "type": "lib_footprint_issues"
+    },
+    {
+      "description": "当前配置中不包含封装库 'Custom'",
+      "items": [
+        {
+          "description": "封装 S28",
+          "pos": {
+            "x": 196.04742,
+            "y": 57.779705
+          },
+          "uuid": "7e1ccf4a-cbb9-458b-9448-ade689be21a2"
+        }
+      ],
+      "severity": "warning",
+      "type": "lib_footprint_issues"
+    },
+    {
+      "description": "当前配置中不包含封装库 'SCOTTOKEEBS Components'",
+      "items": [
+        {
+          "description": "封装 D31",
+          "pos": {
+            "x": 208.016476,
+            "y": 36.765854
+          },
+          "uuid": "809abf34-b58e-4d6b-b699-6d6932ebe915"
+        }
+      ],
+      "severity": "warning",
+      "type": "lib_footprint_issues"
+    },
+    {
+      "description": "当前配置中不包含封装库 'Custom'",
+      "items": [
+        {
+          "description": "封装 S21",
+          "pos": {
+            "x": 168.848201,
+            "y": 87.636729
+          },
+          "uuid": "821c9574-09d0-408d-9ecd-0f9987986489"
+        }
+      ],
+      "severity": "warning",
+      "type": "lib_footprint_issues"
+    },
+    {
+      "description": "当前配置中不包含封装库 'SCOTTOKEEBS Components'",
+      "items": [
+        {
+          "description": "封装 D1",
+          "pos": {
+            "x": 52.443046,
+            "y": 36.905783
+          },
+          "uuid": "88fda1e7-5a35-4a68-ba94-fbb9ae489126"
+        }
+      ],
+      "severity": "warning",
+      "type": "lib_footprint_issues"
+    },
+    {
+      "description": "当前配置中不包含封装库 'Custom'",
+      "items": [
+        {
+          "description": "封装 S20",
+          "pos": {
+            "x": 164.448276,
+            "y": 71.215995
+          },
+          "uuid": "97366238-82e4-461d-b9ef-0756467ee7ca"
+        }
+      ],
+      "severity": "warning",
+      "type": "lib_footprint_issues"
+    },
+    {
+      "description": "当前配置中不包含封装库 'Custom'",
+      "items": [
+        {
+          "description": "封装 S30",
+          "pos": {
+            "x": 189.021822,
+            "y": 97.242729
+          },
+          "uuid": "999a8ad8-0c10-480d-a99f-0abddee366ab"
+        }
+      ],
+      "severity": "warning",
+      "type": "lib_footprint_issues"
+    },
+    {
+      "description": "当前配置中不包含封装库 'SCOTTOKEEBS Components'",
+      "items": [
+        {
+          "description": "封装 D21",
+          "pos": {
+            "x": 168.201152,
+            "y": 85.22192
+          },
+          "uuid": "9ba91fb7-7016-43c4-adf9-21497a67d733"
+        }
+      ],
+      "severity": "warning",
+      "type": "lib_footprint_issues"
+    },
+    {
+      "description": "当前配置中不包含封装库 'SCOTTOKEEBS Components'",
+      "items": [
+        {
+          "description": "封装 D2",
+          "pos": {
+            "x": 48.043119,
+            "y": 53.326518
+          },
+          "uuid": "a1384b8a-8a81-4b49-8469-94bcb99b3a5f"
+        }
+      ],
+      "severity": "warning",
+      "type": "lib_footprint_issues"
+    },
+    {
+      "description": "当前配置中不包含封装库 'Custom'",
+      "items": [
+        {
+          "description": "封装 S25",
+          "pos": {
+            "x": 184.621894,
+            "y": 80.821991
+          },
+          "uuid": "a5ea9b37-d327-4a0c-8e6c-c414375b8382"
+        }
+      ],
+      "severity": "warning",
+      "type": "lib_footprint_issues"
+    },
+    {
+      "description": "当前配置中不包含封装库 'SCOTTOKEEBS Components'",
+      "items": [
+        {
+          "description": "封装 D26",
+          "pos": {
+            "x": 172.601081,
+            "y": 101.642659
+          },
+          "uuid": "a8cc834b-7f20-4516-8a0d-367cb793378c"
+        }
+      ],
+      "severity": "warning",
+      "type": "lib_footprint_issues"
+    },
+    {
+      "description": "当前配置中不包含封装库 'SCOTTOKEEBS Components'",
+      "items": [
+        {
+          "description": "封装 D20",
+          "pos": {
+            "x": 163.801225,
+            "y": 68.801181
+          },
+          "uuid": "ab0f829c-c14b-4428-bd01-96cbb9adad28"
+        }
+      ],
+      "severity": "warning",
+      "type": "lib_footprint_issues"
+    },
+    {
+      "description": "当前配置中不包含封装库 'Custom'",
+      "items": [
+        {
+          "description": "封装 S16",
+          "pos": {
+            "x": 113.648429,
+            "y": 71.215993
+          },
+          "uuid": "ac5444e5-b871-4aee-9122-e68d74cc5a7d"
+        }
+      ],
+      "severity": "warning",
+      "type": "lib_footprint_issues"
+    },
+    {
+      "description": "当前配置中不包含封装库 'SCOTTOKEEBS Components'",
+      "items": [
+        {
+          "description": "封装 D11",
+          "pos": {
+            "x": 102.921707,
+            "y": 45.5657
+          },
+          "uuid": "ad1f9340-92f9-4a07-8929-b3efee862160"
+        }
+      ],
+      "severity": "warning",
+      "type": "lib_footprint_issues"
+    },
+    {
+      "description": "当前配置中不包含封装库 'Custom'",
+      "items": [
+        {
+          "description": "封装 S1",
+          "pos": {
+            "x": 51.795999,
+            "y": 39.320601
+          },
+          "uuid": "ad41c95b-182e-4894-8a40-48925cdd216e"
+        }
+      ],
+      "severity": "warning",
+      "type": "lib_footprint_issues"
+    },
+    {
+      "description": "当前配置中不包含封装库 'Custom'",
+      "items": [
+        {
+          "description": "封装 S34",
+          "pos": {
+            "x": 226.300717,
+            "y": 39.320595
+          },
+          "uuid": "b09ded63-614d-4d83-bcea-8dbe73a56d66"
+        }
+      ],
+      "severity": "warning",
+      "type": "lib_footprint_issues"
+    },
+    {
+      "description": "当前配置中不包含封装库 'SCOTTOKEEBS Components'",
+      "items": [
+        {
+          "description": "封装 D34",
+          "pos": {
+            "x": 225.653663,
+            "y": 36.905778
+          },
+          "uuid": "b1cb1136-2361-402f-8904-67f189967637"
+        }
+      ],
+      "severity": "warning",
+      "type": "lib_footprint_issues"
+    },
+    {
+      "description": "当前配置中不包含封装库 'Custom'",
+      "items": [
+        {
+          "description": "封装 S29",
+          "pos": {
+            "x": 200.447349,
+            "y": 74.200442
+          },
+          "uuid": "b3d2e8ff-bbde-4f18-94d9-9cab5811ac2d"
+        }
+      ],
+      "severity": "warning",
+      "type": "lib_footprint_issues"
+    },
+    {
+      "description": "当前配置中不包含封装库 'SCOTTOKEEBS Components'",
+      "items": [
+        {
+          "description": "封装 D5",
+          "pos": {
+            "x": 65.680311,
+            "y": 53.186591
+          },
+          "uuid": "b5eb5aef-2370-4602-a7a9-6db694043a98"
+        }
+      ],
+      "severity": "warning",
+      "type": "lib_footprint_issues"
+    },
+    {
+      "description": "当前配置中不包含封装库 'SCOTTOKEEBS Components'",
+      "items": [
+        {
+          "description": "封装 D7",
+          "pos": {
+            "x": 87.096255,
+            "y": 38.944149
+          },
+          "uuid": "b6895129-6fc8-448e-a004-50421f9509b0"
+        }
+      ],
+      "severity": "warning",
+      "type": "lib_footprint_issues"
+    },
+    {
+      "description": "当前配置中不包含封装库 'SCOTTOKEEBS Components'",
+      "items": [
+        {
+          "description": "封装 D25",
+          "pos": {
+            "x": 183.974846,
+            "y": 78.407176
+          },
+          "uuid": "b85cf478-bd53-4b70-a352-7339725f76fb"
+        }
+      ],
+      "severity": "warning",
+      "type": "lib_footprint_issues"
+    },
+    {
+      "description": "当前配置中不包含封装库 'SCOTTOKEEBS Components'",
+      "items": [
+        {
+          "description": "封装 D36",
+          "pos": {
+            "x": 234.453518,
+            "y": 69.747255
+          },
+          "uuid": "b935931a-3333-484d-9b30-d9ec3c1e1dbe"
+        }
+      ],
+      "severity": "warning",
+      "type": "lib_footprint_issues"
+    },
+    {
+      "description": "当前配置中不包含封装库 'Custom'",
+      "items": [
+        {
+          "description": "封装 S32",
+          "pos": {
+            "x": 213.063452,
+            "y": 55.601405
+          },
+          "uuid": "bba0b63d-59dd-43ab-a9a4-9eafb2499185"
+        }
+      ],
+      "severity": "warning",
+      "type": "lib_footprint_issues"
+    },
+    {
+      "description": "当前配置中不包含封装库 'Custom'",
+      "items": [
+        {
+          "description": "封装 S35",
+          "pos": {
+            "x": 230.700641,
+            "y": 55.741334
+          },
+          "uuid": "c24fa47c-d0ed-4806-98aa-c952f40e1ecc"
+        }
+      ],
+      "severity": "warning",
+      "type": "lib_footprint_issues"
+    },
+    {
+      "description": "当前配置中不包含封装库 'Custom'",
+      "items": [
+        {
+          "description": "封装 S3",
+          "pos": {
+            "x": 42.996151,
+            "y": 72.162073
+          },
+          "uuid": "cbae6e01-8f55-4fc5-9bbb-59abddfa2283"
+        }
+      ],
+      "severity": "warning",
+      "type": "lib_footprint_issues"
+    },
+    {
+      "description": "当前配置中不包含封装库 'SCOTTOKEEBS Components'",
+      "items": [
+        {
+          "description": "封装 D19",
+          "pos": {
+            "x": 159.401311,
+            "y": 52.380441
+          },
+          "uuid": "d15d6230-f9eb-4332-85b9-7bcbe5535249"
+        }
+      ],
+      "severity": "warning",
+      "type": "lib_footprint_issues"
+    },
+    {
+      "description": "当前配置中不包含封装库 'Custom'",
+      "items": [
+        {
+          "description": "封装 S23",
+          "pos": {
+            "x": 175.822044,
+            "y": 47.980512
+          },
+          "uuid": "d4734b15-c71b-421c-9617-367ca04963ee"
+        }
+      ],
+      "severity": "warning",
+      "type": "lib_footprint_issues"
+    },
+    {
+      "description": "当前配置中不包含封装库 'SCOTTOKEEBS Components'",
+      "items": [
+        {
+          "description": "封装 D18",
+          "pos": {
+            "x": 121.26932,
+            "y": 108.457395
+          },
+          "uuid": "da06801b-5ba1-4486-af9b-e763e4eadd9a"
+        }
+      ],
+      "severity": "warning",
+      "type": "lib_footprint_issues"
+    },
+    {
+      "description": "当前配置中不包含封装库 'SCOTTOKEEBS Components'",
+      "items": [
+        {
+          "description": "封装 D8",
+          "pos": {
+            "x": 82.696335,
+            "y": 55.364884
+          },
+          "uuid": "db25b79b-60ff-4423-b713-0ac8242327a8"
+        }
+      ],
+      "severity": "warning",
+      "type": "lib_footprint_issues"
+    },
+    {
+      "description": "当前配置中不包含封装库 'SCOTTOKEEBS Components'",
+      "items": [
+        {
+          "description": "封装 D14",
+          "pos": {
+            "x": 105.495635,
+            "y": 101.642651
+          },
+          "uuid": "db6a727b-5688-470b-9927-114e02c69782"
+        }
+      ],
+      "severity": "warning",
+      "type": "lib_footprint_issues"
+    },
+    {
+      "description": "当前配置中不包含封装库 'SCOTTOKEEBS Components'",
+      "items": [
+        {
+          "description": "封装 D4",
+          "pos": {
+            "x": 70.080231,
+            "y": 36.765858
+          },
+          "uuid": "db8a1185-733c-43a5-8578-69ea53bf17fb"
+        }
+      ],
+      "severity": "warning",
+      "type": "lib_footprint_issues"
+    },
+    {
+      "description": "当前配置中不包含封装库 'SCOTTOKEEBS Components'",
+      "items": [
+        {
+          "description": "封装 D27",
+          "pos": {
+            "x": 191.000454,
+            "y": 38.944151
+          },
+          "uuid": "df07cfcb-9502-4ad5-b7d4-b81c9e74aa6f"
+        }
+      ],
+      "severity": "warning",
+      "type": "lib_footprint_issues"
+    },
+    {
+      "description": "当前配置中不包含封装库 'Custom'",
+      "items": [
+        {
+          "description": "封装 SW1",
+          "pos": {
+            "x": 139.04872,
+            "y": 64.490336
+          },
+          "uuid": "df940b00-fd84-4217-b58b-9e4aa962a49d"
+        }
+      ],
+      "severity": "warning",
+      "type": "lib_footprint_issues"
+    },
+    {
+      "description": "当前配置中不包含封装库 'Custom'",
+      "items": [
+        {
+          "description": "封装 S17",
+          "pos": {
+            "x": 109.248505,
+            "y": 87.636739
+          },
+          "uuid": "e02e7c68-69ba-45d1-833b-c27a12898ef1"
+        }
+      ],
+      "severity": "warning",
+      "type": "lib_footprint_issues"
+    },
+    {
+      "description": "当前配置中不包含封装库 'Custom'",
+      "items": [
+        {
+          "description": "封装 S33",
+          "pos": {
+            "x": 217.46337,
+            "y": 72.022143
+          },
+          "uuid": "e3cf6623-a264-4a63-bdcd-0d3c9111dbce"
+        }
+      ],
+      "severity": "warning",
+      "type": "lib_footprint_issues"
+    },
+    {
+      "description": "当前配置中不包含封装库 'Custom'",
+      "items": [
+        {
+          "description": "封装 S12",
+          "pos": {
+            "x": 97.874743,
+            "y": 64.401258
+          },
+          "uuid": "eae1e04b-90ff-495d-af31-5518b2da6680"
+        }
+      ],
+      "severity": "warning",
+      "type": "lib_footprint_issues"
+    },
+    {
+      "description": "当前配置中不包含封装库 'Custom'",
+      "items": [
+        {
+          "description": "封装 U1",
+          "pos": {
+            "x": 139.048722,
+            "y": 37.550337
+          },
+          "uuid": "f47a1cfd-7a29-4e07-a6d9-d1b8aa912cd3"
+        }
+      ],
+      "severity": "warning",
+      "type": "lib_footprint_issues"
+    },
+    {
+      "description": "当前配置中不包含封装库 'SCOTTOKEEBS Components'",
+      "items": [
+        {
+          "description": "封装 D3",
+          "pos": {
+            "x": 43.643201,
+            "y": 69.747261
+          },
+          "uuid": "f5cef950-9987-4958-a588-d468a8f5199b"
+        }
+      ],
+      "severity": "warning",
+      "type": "lib_footprint_issues"
+    },
+    {
+      "description": "当前配置中不包含封装库 'Custom'",
+      "items": [
+        {
+          "description": "封装 BT1",
+          "pos": {
+            "x": 158.130191,
+            "y": 28.631022
+          },
+          "uuid": "fac1bdcd-db04-42d1-9c96-b3e4f219c6c5"
+        }
+      ],
+      "severity": "warning",
+      "type": "lib_footprint_issues"
+    },
+    {
+      "description": "当前配置中不包含封装库 'SCOTTOKEEBS Components'",
+      "items": [
+        {
+          "description": "封装 D9",
+          "pos": {
+            "x": 78.296412,
+            "y": 71.785622
+          },
+          "uuid": "fb130193-5341-43db-861b-4e9ba7838e4b"
+        }
+      ],
+      "severity": "warning",
+      "type": "lib_footprint_issues"
+    },
+    {
+      "description": "当前配置中不包含封装库 'SCOTTOKEEBS Components'",
+      "items": [
+        {
+          "description": "封装 D35",
+          "pos": {
+            "x": 230.053588,
+            "y": 53.300667
+          },
+          "uuid": "ff0187e1-e5d6-4c2b-954a-ae2eec1ca766"
+        }
+      ],
+      "severity": "warning",
+      "type": "lib_footprint_issues"
+    }
+  ]
+}
